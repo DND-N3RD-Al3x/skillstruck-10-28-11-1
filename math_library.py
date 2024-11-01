@@ -1,0 +1,10 @@
+import math
+#rounding up; x = math.ceil(3.2); print(x)
+#rounding down; y = math.floor(3.2); print(y)
+#value of pi; z = math.pi ;print(z)
+#square root; w = math.sqrt(100); print(w)
+#multiply by a power; v = pow(3,4); print(v)
+v = int(input())
+b = int(input())
+r = pow(v,2) + pow(b,2)
+print(round(math.sqrt(r),2))
